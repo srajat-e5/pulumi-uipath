@@ -1,5 +1,5 @@
-import * as xyz from "@pulumi/xyz";
+import * as UiPath from "@pulumi/UiPath";
 
-const random = new xyz.Random("my-random", { length: 24 });
+const random = new UiPath.Random("my-random", { length: 24 });
 
 export const output = random.result;

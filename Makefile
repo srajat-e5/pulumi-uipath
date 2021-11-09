@@ -1,10 +1,10 @@
-PROJECT_NAME := Pulumi Xyz Resource Provider
+PROJECT_NAME := Pulumi UiPath Resource Provider
 
-PACK             := xyz
+PACK             := UiPath
 PACKDIR          := sdk
-PROJECT          := github.com/pulumi/pulumi-xyz
-NODE_MODULE_NAME := @pulumi/xyz
-NUGET_PKG_NAME   := Pulumi.Xyz
+PROJECT          := github.com/srajat-e5/pulumi-UiPath
+NODE_MODULE_NAME := @pulumi/UiPath
+NUGET_PKG_NAME   := Pulumi.UiPath
 
 PROVIDER        := pulumi-resource-${PACK}
 CODEGEN         := pulumi-gen-${PACK}
@@ -12,12 +12,15 @@ VERSION         ?= $(shell pulumictl get version)
 PROVIDER_PATH   := provider
 VERSION_PATH     := ${PROVIDER_PATH}/pkg/version.Version
 
-SCHEMA_FILE     := provider/cmd/pulumi-resource-xyz/schema.json
+SCHEMA_FILE     := provider/cmd/pulumi-resource-UiPath/schema.json
 GOPATH			:= $(shell go env GOPATH)
 
 WORKING_DIR     := $(shell pwd)
 TESTPARALLELISM := 4
 
+echo::
+	echo ${PROJECT}
+	
 ensure::
 	cd provider && go mod tidy
 	cd sdk && go mod tidy

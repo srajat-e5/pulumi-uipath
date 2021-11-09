@@ -1,3 +1,3 @@
-// Package xyz exports types, functions, subpackages for provisioning xyz resources.
+// Package UiPath exports types, functions, subpackages for provisioning UiPath resources.
 //
-package xyz
+package UiPath

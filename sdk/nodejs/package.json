@@ -1,5 +1,5 @@
 {
-    "name": "@pulumi/xyz",
+    "name": "@pulumi/UiPath",
     "version": "${VERSION}",
     "scripts": {
         "build": "tsc"

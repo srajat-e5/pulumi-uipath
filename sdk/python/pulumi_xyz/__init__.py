@@ -11,11 +11,11 @@ _utilities.register(
     resource_modules="""
 [
  {
-  "pkg": "xyz",
+  "pkg": "UiPath",
   "mod": "index",
-  "fqn": "pulumi_xyz",
+  "fqn": "pulumi_UiPath",
   "classes": {
-   "xyz:index:Random": "Random"
+   "UiPath:index:Random": "Random"
   }
  }
 ]
@@ -23,9 +23,9 @@ _utilities.register(
     resource_packages="""
 [
  {
-  "pkg": "xyz",
-  "token": "pulumi:providers:xyz",
-  "fqn": "pulumi_xyz",
+  "pkg": "UiPath",
+  "token": "pulumi:providers:UiPath",
+  "fqn": "pulumi_UiPath",
   "class": "Provider"
  }
 ]

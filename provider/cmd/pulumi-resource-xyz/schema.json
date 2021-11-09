@@ -1,8 +1,8 @@
 {
-    "name": "xyz",
+    "name": "UiPath",
     "version": "0.0.1",
     "resources": {
-        "xyz:index:Random": {
+        "UiPath:index:Random": {
             "properties": {
                 "length": {
                     "type": "integer"
@@ -33,7 +33,7 @@
         },
         "go": {
             "generateResourceContainerTypes": true,
-            "importBasePath": "github.com/pulumi/pulumi-xyz/sdk/go/xyz"
+            "importBasePath": "github.com/srajat-e5/pulumi-UiPath/sdk/go/UiPath"
         },
         "nodejs": {
             "dependencies": {
